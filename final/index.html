@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator with Increase/Decrease</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Calculator</h1>
+        
+        <!-- Input fields for two numbers -->
+        <div>
+          <span>First Number:</span>
+          <input type="number" id="num1" value="0" />
+          <button class="btn decrease" data-target="num1">decrease</button>
+          <button class="btn increase" data-target="num1">increase</button>
+        </div>
+
+        <div>
+          <span>Second Number:</span>
+          <input type="number" id="num2" value="0" />
+          <button class="btn decrease" data-target="num2">decrease</button>
+          <button class="btn increase" data-target="num2">increase</button>
+        </div>
+
+        <!-- Operation buttons -->
+        <div class="button-container">
+          <button class="btn" data-operation="add">+</button>
+          <button class="btn" data-operation="subtract">-</button>
+          <button class="btn" data-operation="multiply">×</button>
+          <button class="btn" data-operation="divide">÷</button>
+          <button class="btn reset">reset</button>
+        </div>
+
+        <!-- Display result -->
+        <div id="result">Result: <span id="result-value">0</span></div>
+      </div>
+    </main>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
