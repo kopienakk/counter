@@ -1,0 +1,1 @@
+saya memodifikasi count number yang awalnya hanya menambah,mengurangi,dan reset angka menjadi kalkulator sederhana dengan 2 bilangan yang tetap menggunakan fitur awal yakni increase, decrease, dan reset
